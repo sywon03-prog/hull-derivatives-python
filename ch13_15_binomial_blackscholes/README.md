@@ -1,6 +1,6 @@
 ## 설명
 
-이항모형, 위너과정과 이토정리, 블랙숄즈방정식 부분을 읽고 두가지를 파이썬으로 구현해봤다.
+이항모형, 위너과정과 이토정리, 블랙숄즈방정식 부분을 읽고 두가지를 파이썬으로 구현했다.
 
 1. 1기간 이항모형,다기간 이항모형 
 2. 블랙-숄즈 옵션가격결정모형
@@ -20,7 +20,7 @@
 
 
 ### 이항 모형의 Black-scholes 수렴
-![Convergence](figure/convergence.png)
+![Convergence](figures/convergence.png)
 
 Hull 13장에 따르면 이항모형은 기하 브라운 운동의 이산 근사이므로,
 $n \to \infty$일 때 Black-Scholes 가격으로 수렴한다. 이를 직접 확인했다.
