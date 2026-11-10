@@ -1,7 +1,9 @@
-## 설명
+## Overview
 19장 Greeks를 읽고 델타, 감마, 세타, 베가, 로의 계산 프로그램을 구현했다.
 
 델타, 세타, 감마의 기초자산 가격과 만기에 따른 움직임을 그래프로 확인했다.
+
+## Greeks
 
 $$
 d_1 = \frac{\ln(S/K) + \left(r - q + \frac{\sigma^2}{2}\right)T}{\sigma\sqrt{T}},
