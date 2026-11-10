@@ -57,7 +57,7 @@ $$
 - Lower bound는 무차익 논리로 얻는다. (call $S - Ke^{-rT}$, put $Ke^{-rT} - S$)
 
 ### Convergence of the Binomial Model
-![Convergence](figures/convergence.png)
+<img src="figures/convergence.png" width="600">
 
 Hull 13장에 따르면 이항모형은 기하 브라운 운동의 이산 근사이므로,
 $n \to \infty$일 때 Black-Scholes 가격으로 수렴한다. 이를 직접 확인했다.
