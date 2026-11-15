@@ -7,5 +7,6 @@ John C. Hull 『Options, Futures, and Other Derivatives』를 읽으며
 
 | 장 | 내용 | 폴더 |
 |---|---|---|
-| 13, 15 | 이항모형, 블랙-숄즈 옵션가격결정모형 | [ch13_15_binomial_blackscholes](ch13_15_binomial_blackscholes/) |
-| 19 | 그릭스(델타, 감마, 세타, 베가, 로) | [ch19_greeks_hedging](ch19_greeks_hedging/) |
+| 13, 15 | Binomial Model, Black–Scholes Option Pricing Model | [ch13_15_binomial_blackscholes](ch13_15_binomial_blackscholes/) |
+| 19 | Greeks (Delta, Gamma, Theta, Vega, Rho) | [ch19_greeks_hedging](ch19_greeks_hedging/) |
+| 20 | Volatility Smile (Implied Volatility, Newton-Raphson, Put-Call Parity) | [ch20_volatility_smiles](ch20_volatility_smiles/) |
