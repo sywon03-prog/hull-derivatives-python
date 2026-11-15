@@ -16,8 +16,8 @@ def black_scholes(S, K, r, sigma, T,option_type = "call") :
 
 
 def put_call_parity(S,K,r,T) :
-    p = black_scholes(S=42, K=40, r=0.10, sigma=0.20, T=0.5,option_type = "put")
-    c = black_scholes(S=42, K=40, r=0.10, sigma=0.20, T=0.5,option_type = "call")
+    p = black_scholes(S, K, r, sigma = 0.5, T = T, option_type = "put")
+    c = black_scholes(S, K, r, sigma=0.5, T = T,option_type = "call")
 
     return np.isclose(c - p, S - K * np.exp(-r * T))
 
