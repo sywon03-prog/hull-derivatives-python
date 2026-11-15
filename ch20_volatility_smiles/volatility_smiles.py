@@ -15,7 +15,6 @@ today = pd.Timestamp.today().normalize()
 
 # 만기일 계산
 exps = pd.Series(pd.to_datetime(tk.options))
-type(tk.options)
 days = (exps - today).dt.days
 
 #1달,3달,6달과 가장 가까운 만기일 선택
@@ -25,7 +24,6 @@ picked = [exps[(days - d).abs().idxmin()].strftime("%Y-%m-%d") for d in targets]
 rows = []
 for exp in picked :
     ch = tk.option_chain(exp)
-    ch.calls
     T = (pd.Timestamp(exp) - today).days / 365
     for typ, df in [("call", ch.calls), ("put", ch.puts)] :
         rows.append(df.assign(expiry=exp, T=T, type=typ))
